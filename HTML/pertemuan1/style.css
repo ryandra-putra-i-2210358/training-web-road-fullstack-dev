@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cointainer{
+    border: 3px solid black;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: aquamarine;
+    
+
+}
+.cointainer .text-asli{
+    color: gray;
+    text-align: center;
+    padding: 30px;
+}
+.cointainer .pembungkus1{
+    width: 300px;
+    border: 3px solid yellow;
+    background-color: yellow;
+
+}
+.cointainer .pembungkus2{
+    width: 300px;
+    border: 3px solid blueviolet;
+    background-color: blueviolet;
+    border-radius: 30px 40px;
+}
+.cointainer .pembungkus1:hover {
+    background-color: blueviolet;
+    color: yellow;
+    border-radius: 200px;
+}
+
